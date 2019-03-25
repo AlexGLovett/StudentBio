@@ -125,9 +125,9 @@
   }
 }
 
-@for $x from 1 through 3 {
+@for $x from 1 through 4 {
   .nav-item:nth-child(#{$x}) {
     transition-delay: $x * 0.2s;
-    transition: opacity (0.4s * $x) ease-in-out;
+    transition: opacity (0.6s * $x) ease-in-out;
   }
 }

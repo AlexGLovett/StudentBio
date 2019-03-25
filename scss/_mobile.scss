@@ -65,6 +65,22 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .boxes > a > div,
+  .boxes > div {
+    font-size: 18px;
+  }
+
+  h1 {
+    &.lg-heading {
+      font-size: 56px;
+    }
+  }
+  h2 {
+    &.sm-heading {
+      font-size: 16px;
+    }
+  }
 }
 
 //Mobile
@@ -75,5 +91,20 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .boxes > a > div,
+  .boxes > div {
+    font-size: 12px;
+  }
+  h1 {
+    &.lg-heading {
+      font-size: 36px;
+    }
+  }
+  h2 {
+    &.sm-heading {
+      font-size: 10px;
+    }
   }
 }
